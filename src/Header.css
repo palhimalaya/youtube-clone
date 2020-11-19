@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    }
+    .header__logo{
+        height: 25px;
+        object-fit: contain;
+        margin-left: 20px;
+           
+    }
+     
+    .header__input{
+        display: flex;
+        align-items: center;
+        width: 35%;
+        border: 1px solid lightgray;
+       
+    }
+    input[type="text"] {
+        width: 89%;
+        height: 33px;
+        padding: 0 10px;
+        color: #000;
+        border: 1px solid #BEBEBE;
+        border-radius: 2px 0 0 2px;
+        z-index: 2
+      }
+    
+      
+    .header__icon{
+        margin-right: 9px;
+    }
+    .header__inputButton{
+        display: flex;
+        align-items: center;
+        width: 50px !important ;
+        background-color : #fafafa;
+        border-left : 1px solid lightgray;
+        color: gray;
+
+    }
+
+    .header__icons{
+        display: flex;
+        align-items: center;
+        float:right;
+    }
+    .header__input > input {
+        float: 1px;
+        border: none;
+    }
